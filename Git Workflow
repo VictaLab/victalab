@@ -1,0 +1,93 @@
+Overview:
+We use Git for version control over our code base. In Git, unlike other version control systems, snapshots of the entire database are taken instead of tracking the changes only. There are three working areas in Git:
+
+	* current working directory
+	* staging area
+	* git repository
+
+Individual developers take a copy from the git repository as their working directory. They make changes to it, and then these changes are added the the staging area. Once the changes are viewed and the developer is happy with the modification, the changes will be commited to the git repositiry. The rest of the documentation is a brief summary of the setup. For more detailed information about the Git functionailty and precise operations, please refer to the offical Git online documentation. 
+
+
+
+Installing Git:
+Windows users go the offical website for downloading Git 	http://git-scm.com/downloads
+
+
+
+Congifuring Git:
+In Git, a user information is needed for later log tracking. Therefore, you need to set up the user name and emaill address using the command line:
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+Windows already has vim installed, so we will ust vim for editing files. Use this command for checking your Git configuration: 
+$ git config --list
+
+
+
+Clone VictaLab to your machine:
+VictaLab is already live online on GitHub. So you just need to copy the repository to your local machine. Pick your working directory, and use this command:
+$ git clone git://github.com/VictaLab/victalab.git victalab
+$ git clone git://github.com/VictaLab/victalab_cpsc.git victalab_cpsc
+$ git clone git://github.com/VictaLab/victalab_engineering.git victalab_engineering
+$ git clone git://github.com/VictaLab/victalab_mathmematics.git victalab_mathematics
+$ git clone git://github.com/VictaLab/victalab_physics.git victalab_physics
+$ git clone git://github.com/VictaLab/victalab_others.git victalab_others
+
+Then you should have six directories in your local machine with the existing codes. 
+
+
+
+Setup SSH connection:
+First check your SSH keys:
+$ ls -al ~/.ssh
+If you do not have an existing key, then run the following command:
+$ ssh-keygen -t rsa -C "your_email@example.com"
+Choose the default directory to store your ssh key, and use a good password (important) 
+
+Then add your ssh key:
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_rsa
+
+Copy your ssh public key:
+$ clip < ~/.ssh/id_rsa.pub
+
+Go to GitHub (you should already have an existing github account)
+In your user setting, add a ssh key, and paste the public key there. 
+
+Last, test the ssh key:
+$ ssh -T git@github.com
+
+You may see this warning:
+The authenticity of host 'github.com (207.97.227.239)' can't be established.
+# RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+# Are you sure you want to continue connecting (yes/no)?
+Just type yes. 
+
+Finaly, you will see the welcome message;
+Hi username! You've successfully authenticated, but GitHub does not
+# provide shell access.
+
+Later when you try to push a local repository to the remote repository, you may get an error for cannot load over git or https. You might need to do further configurations to change the git remote setting. 
+
+
+
+Branches:
+Please read the 2nd and 3rd chapters on the online Git documentation. 
+We will use some basic command lines for communicating with Git. 
+Our offical and always live branch is master. 
+For developement, we have the branch trunk.
+Then for testing, we have the branch staging. 
+Last, for each individual developement, we have local feature branches. 
+
+First, only the tester has the permission to push code to the master branch, as this is the live version of VictaLab. 
+Each individual developer checks out a branch from trunk. Remember before checkout, you need to pull the origin trunk to update your current trunk version. 
+
+After finishing the feature branch, developers need to push their changes to trunk:
+1. First update their trunk version by pulling from the origin trunk
+2. Merge trunk into their local feature branch to solve conflict
+3. Merge their local feature to their local trunk, by using -squash option for a better log view
+4. Push their trunk to the remote trunk
+
+Then the trunk at the end will be merged to staging, where testing will be done. 
+
+Last, staging will be merged to master and goes live.
