@@ -1,0 +1,21 @@
+LeanKit Workflow
+We use LeanKit for task amnagement. 
+First you should make sure you have your account setup from LeanKit. 
+
+All the new work and tasks are generated in the backlog:
+* Pending new work is the new work to be done in the following week. Every Monday, we will see what new pending work to do and assign them to developers. For tasks that cannot be immediately assigned to anyone, they will be moved to pending task queue lane. 
+
+* Management backlog has its own long-run and short-run tasks and projects. This is where pending new work is chosen from. We will make sure that for each vertical lane under management backlog, there has to be at least 21 points amount of work. 
+
+* Pending task queue: tasks from pending new work yet the assignee is not decided
+
+* Developer lane: we have todo, in-progress, and done lane. Each developer should have at leasr 21 points amount of work on Monday for the wee. Once the work is done, the developer moves it to the done lane. 
+
+* Review: reviewer under this lane will constantly take a look at the "done" work under each developer's lane. And they will move the done work to their review lane to review the changes and the make necessary discussion. Once the review is done, the work is moved to pending test lane. 
+
+* Pending test lane: pending work for testing. 
+* Test: tester will take test on the code and projects. If there is a bug in the code, tester does not move the work itself (the task/code card stays at the test lane). The tester, however, needs to create a new LeanKit card and title it as QA BUG and assign it the developer. Once the developer reworks it, he will move the card to review and back to test again. The cards that arrive into the test lane will never be moved out (unless to deployment), even for the QA BUG cards. 
+
+* Pending deployment: once the tests are passed, the tester will deploy the cards on this lane into master branches and go live. Cards then are moved to recent deployment.
+
+* Archieve: we will announce the achievements on Sunday for all the cards on recent deployment. These changes will go on our website and the mailing list. Then, the finished tasks will be recatagorized under the management archieve lanes. 
