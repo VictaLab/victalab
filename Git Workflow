@@ -68,6 +68,13 @@ Hi username! You've successfully authenticated, but GitHub does not
 # provide shell access.
 
 Later when you try to push a local repository to the remote repository, you may get an error for cannot load over git or https. You might need to do further configurations to change the git remote setting. 
+This is the error:
+fatal: remote error: 
+You can't push to git://github.com/my_user_name/my_repo.git
+Use git@github.com:my_user_name/my_repo.git
+
+Solution: git remote set-url origin git@github.com:my_user_name/my_repo.git
+In our case, it is git@github.com:VictaLab/victalab_cpsc.git (for example)
 
 
 
