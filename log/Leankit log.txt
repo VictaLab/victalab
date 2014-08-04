@@ -39,3 +39,21 @@ EPIC-BOOK		The Lovecraft Anthology Volumn 2		[3]
 POPUP			US Visa Prep 							[1]
 
 TOTAL:	44
+
+
+
+2014 August 3:
+============2================================6==========
+POPUP 			Updates Mailchimp						[1]
+POPUP 			Updates LeanKit Log						[1]
+PROJ-PYTHON 	Bounce Ball Game						[13]
+PROJ-FUNCTION	Functions								[2]
+PROJ-CALCULUS	Limits									[3]
+TASK-EECE 		Theory of Electronics					[1]
+TASK-EECE 		Current 								[1]
+TASK-EECE 		Voltage 								[2]
+TASK-EECE 		Microscopic View of Conduction 			[1]
+TASK-VICVIC		Vic Vic 018								[2]
+TASK-WEB		Web Update 								[2]
+
+TOTAL:	29
