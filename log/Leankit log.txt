@@ -57,3 +57,13 @@ TASK-VICVIC		Vic Vic 018								[2]
 TASK-WEB		Web Update 								[2]
 
 TOTAL:	29
+
+
+
+2014 August 10:
+============2================================6==========
+EPIC-PYTHON	 	Stickman Game	 						[21]
+POPUP			Payroll Setup							[1]
+POPUP 			August 10 Web Update 					[2]
+
+TOTAL:	24 								
