@@ -66,4 +66,27 @@ EPIC-PYTHON	 	Stickman Game	 						[21]
 POPUP			Payroll Setup							[1]
 POPUP 			August 10 Web Update 					[2]
 
-TOTAL:	24 								
+<<<<<<< HEAD
+TOTAL:	24 												
+
+
+
+2014 August 17:
+============2================================6==========				
+EPIC-BOOK 		The Survivor and Others 				[17]
+TASK-OTHERS 	QA Interview Preparation 				[13]
+PHYS-ATOM 		Atoms in Motion 						[4]
+MATH-CALCULUS 	Derivatives 							[3]
+TASK-EECE  		Electric Circuit 						[1]
+TASK-EECE 		Grounds 								[2]
+TASK-EECE  		Wire Gauges 							[1]
+TASK-EECE 		Thermal Heat Conduction and Thermal 
+ 				Resistance 								[2]
+TASK-EECE 		Heat and Power 							[1]
+TASK-EECE 		Resistivity and Conductivity 			[1]
+TASK-EECE 		Insulators, Conductors, and 
+				Semiconductors 							[1]
+CPSC-RUBY 		Introduction to Ruby 					[3]
+POP-UP 			Suit Up 								NA
+
+TOTAL:	49
