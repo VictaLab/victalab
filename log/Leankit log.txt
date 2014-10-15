@@ -113,3 +113,28 @@ TASK-EECE 			AC Circuit 											[3]
 POP-UP 				QA Interview Preparation 							[1]
 
 TOTAL:  53
+
+
+2014 Oct 14:
+===========================================================================
+OTHERS 				Job Application										[1]
+POP-UP				Co-op Report										[1]
+TASK-EECE			RMS													[1]
+TASK-EECE 			Manis Power											[1]
+TASK-VICVIC 		Vic Vic 019 										[2]
+PROJ-C++ 			Inheritance 										[3]
+PROJECT-FUNDAMENTAL Conservation of Energy 								[8]
+TASK-HARMONICA 		Tongue Blocking 									[2]
+TASK-DOODLING 		Shades and Shapes 									[2]
+EPIC-BOOK 			Maus I 												[3]
+EPIC-BOOk 			Maus II 											[3]
+EPIC-BOOK 			From Hell 											[13]
+EPIC-BOOK 			At the Mountains of Madness 						[3]
+EPIC-BOOK 			The Shadow of Space 								[3]
+EPIC-BOOK 			Falling into Place 									[13]
+POP-UP 				U-Pass Issue 										
+EPIC-GUITAR 		Tristram 											[5]
+EPIC-BLUESHARP 		Golden Melody#1 									[3]
+EPIC-GUITAR 		Hotel California									[5]
+
+TOTAL: 75
