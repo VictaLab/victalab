@@ -140,7 +140,7 @@ EPIC-GUITAR 		Hotel California									[5]
 TOTAL: 75
 
 
-2014 Oct 26:
+2014 Oct 21:
 ============================================================================
 HOMEWORK 			CPSC110 Peer review assignment 						[2]
 ADMIN 				Victa Group Invitation 								[3]
@@ -162,4 +162,64 @@ POP-UP 				Sunday Concerto 									[3]
 HOMEWORK 			EECE 210 Machine Problem 							[8]
 
 Total: 62
+
+
+2014 Oct 26:
+============================================================================
+AUTOMATION 			13560												[2]
+AUTOMATION 			13724 												[2]
+ADMIN 				Update Website 
+OTHERS 				Co-op term report  									[1]
+OTHERS 				Sunday Oct 19 Sprint 								
+HOMEWORK 			Fashion Marketing Articles 							[3]
+AUTOMATION 			13172 												[2]
+AUTOMATION 			13730 												[2]
+OTHERS 				Testing on WorkBook 								[1]
+HOMEWORK 			Essay on Fashion 									[8]
+HOMEWORK 			AC111 3 Questions 									[2]
+AUTOMATION 			Automate Visual Monitoring Checks 					[3]
+
+Total: 28
+
+
+2014 Nov 2:
+============================================================================
+DRAWING 			Halloween Collection 								[13]
+OTHERS 				A very brief intro to GRE 							[1]
+HOMEWORK 			Update Sanity Test Sheet 							[1]
+OTHERS 				Marketing Midterm review 							[21]
+HOMEWORK 			Marketing Positioning Paper 						[8]
+HOMEWORK 			Value Propersition Indochino 						[2]
+HOMEWORK 			CPSC 302: Assignment 5 								[13]
+HOMEWORK 			EECE 210 Machine Problem 2 							[5]
+HOMEWORK 			CPSC 110 LAB 										[5]
+HOMEWORK 			CPSC 110 Lab 8 										[8]
+CRAFT 				Junkyard Puppet with Amo 							[2]
+HOMEWORK 			Bug Verification on SP4 							[5]
+HOMEWORK 			Dell51 Migration 									[5]
+OTHERS 				Return Pictures to Library 							[3]
+OTHERS 				Postcard											[2]
+GUITAR 				Sunday Group 										[13]
+HOMEWORK 			Oct 29 Bug Verification 							[5]
+HOMEWORK 			WorkBook Sanity 									[3]
+OTHERS 				Design Cover for Fliers 							[2]
+HOMEWORK 			Fashion Retail Math 								[1]
+HOMEWORK 			FM224 Homework 										[2]
+OTHERS 				EECE 210 Designing Specfications 					[2]
+OTHERS 				EECE 210 Specifications 							[2]
+HOMEWORK 			WorkSpace Sanity 									[3]
+HOMEWORK 			Mobile Laptop Sanity 								[2]
+HOMEWORK 			Automation 12319 									[2]
+HOMEWORK 			Automation 12304 									[2]
+HOMEWORK 			Automation 12310 									[2]
+OTHERS 				Halloween plan EoW 									
+HOMEWORK 			Oct 30 Build Wiki 									
+HOMEWORK 			Automation 12309 									[2]
+HOMEWORK 			Oct 30 Bug Verification 							[3]
+HOMEWORK 			EECE 210 											[13]
+OTHERS 				House Holding 										
+OTHERS  			Saturday Entertainment 								[5]
+OTHERS 				EECE 210: Debugging 								[3]
+
+Total: 152
 
